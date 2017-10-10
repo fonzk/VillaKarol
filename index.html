@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="">
+<head>
+<meta charset="utf-8">
+<title>Villa Karol Salón de eventos</title>
+<meta name="description" content="Salón de eventos VILLA KAROL ubicado en el municipio de Malambo ofrece sus servicios para la realización de sus eventos y fiestas
+Eventos Empresariales: fiestas de fin de año, reuniones, almuerzos de trabajo, juntas directivas, conferencias y seminarios, Exposiciones, Show Rooms, banquetes a domicilio.
+Eventos sociales: matrimonios, grados, despedidas, primeras comuniones, cumpleaños, showers, fiestas temáticas, entre otros
+">
+<meta name="keywords" content="eventos,Malambo,fiestas,matrimonios, grados, despedidas, primeras comuniones, cumpleaños, showers, fiestas temáticas,salón de eventos, salón, fiestas de fin de año, reuniones, almuerzos de trabajo, juntas directivas, conferencias y seminarios, Exposiciones, Show Rooms, banquetes a domicilio">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+ <link href="css/estilo1.css" rel="stylesheet" type="text/css">
+  <link href="css/social1.css" rel="stylesheet" type="text/css">
+  <link href="css/fonts.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+ <link rel="shortcut icon" href="img/ico.png" >
+ <link rel="stylesheet" href="css/responsiveslides.css">
+ <script src="http://code.jquery.com/jquery-latest.js"></script>
+ <script src=" js/main.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+<script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+        maxwidth: 800,
+        speed: 800
+      });
+
+      // Slideshow 2
+      $("#slider2").responsiveSlides({
+        auto: false,
+        pager: true,
+        speed: 300,
+        maxwidth: 540
+      });
+
+      // Slideshow 3
+      $("#slider3").responsiveSlides({
+        manualControls: '#slider3-pager',
+        maxwidth: 540
+      });
+
+      // Slideshow 4
+      $("#slider4").responsiveSlides({
+        auto: false,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+        before: function () {
+          $('.events').append("<li>before event fired.</li>");
+        },
+        after: function () {
+          $('.events').append("<li>after event fired.</li>");
+        }
+      });
+
+    });
+  </script>
+
+</head>
+
+<body>
+
+
+<div class="contenedor">
+
+
+
+  			<!-- 			
+			barra social
+   --> 
+
+   <div class="social">
+    <ul>
+    <img   src="img/vk3.png" alt="" class="imagen">
+      <li><a href="https://www.facebook.com/salondeeventosvillakarol"onclick="this.target='_blank'" class="icon-facebook"></a></li>
+      <li><a href="https://twitter.com/VillaKarol_e" onclick="this.target='_blank'" class="icon-twitter"></a></li>
+      <li><a href="https://plus.google.com/u/1/101878778480944709635" onclick="this.target='_blank'" class="icon-google-with-circle"></a></li>
+      <li><a href="https://www.instagram.com/villakarol_eventos/" onclick="this.target='_blank'" class="icon-instagram"></a></li>
+      <li><a href="mailto:salondeeventosvillakarol@hotmail.com" class="icon-mail"></a></li>
+    </ul>
+  </div>
+
+
+<!-- 
+  //fin barra social html
+   -->
+
+
+  <header >
+    <div class="menu_bar">
+      <a href="#" class="bt-menu"><span class="icon-menu"></span>Menu</a>
+
+    </div>
+
+<div class="banner">
+ <img src="img/logotipobanner1.png" alt="logo" id ="im2" ><img src="img/vk4.png" alt="logo" id ="im1"  >
+   
+     </div> <!-- 
+  //barra de navegacion
+   -->
+  <nav >
+    <ul >
+      
+      <li class="activo" ><a ><span class="icon-home"></span>Inicio</a></li>
+        <!-- <li><a href="nosotros.html"><span class="icon-suitcase"></span>Nosotros</a></li>
+         <li class="submenu">
+         <a href="#"><span class="icon-images"></span>Galeria<span class="caret icon-chevron-down"></span> </a>
+         <ul class="children"><li><a href="#">subelemento #1 <span class="icon-dot-single"></span> </a></li>
+         <li><a href="#">subelemento #2 <span class="icon-dot-single"></span></a></li>
+         <li><a href="#">subelemento #3 <span class="icon-dot-single"></span></a></li></ul>
+         </li>
+        <li>       <a href="#"><span class="icon-star"></span>Servicios</a></li>
+        <li><a href="#"><span class="icon-mail"></span>Contactenos</a></li>
+<li><a href="#"><span class="icon-pencil"></span>Cotizaciones</a></li> -->
+    </ul>
+        </nav>
+    
+ <!-- 
+  //fin barra de navegacion
+   -->
+  </header>
+
+<!-- banner
+-->
+<div class="subcontenedor">
+<!-- slides -->
+<div class="ps">
+<div class="slider">
+<ul class="rslides rslides1" id="slider1" style="max-width: 800px;">
+      <li id="rslides1_s0" class="" style="display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 800ms ease-in-out;"><img src="img/fotosslides/1.jpg" alt="1"></li>
+      <li id="rslides1_s1" class="rslides1_on" style="float: none; position: relative; opacity: 1; z-index: 2; display: list-item; transition: opacity 800ms ease-in-out;"><img src="img/fotosslides/2.jpg" alt="2"></li>
+      <li id="rslides1_s2" class="" style="float: none; position: absolute; opacity: 0; z-index: 1; display: list-item; transition: opacity 800ms ease-in-out;"><img src="img/fotosslides/3.jpg" alt="3"></li>
+      <li id="rslides1_s3" class="" style="float: none; position: absolute; opacity: 1; z-index: 2; display: list-item; transition: opacity 800ms ease-in-out;"><img src="img/fotosslides/4.png" alt="4"></li>
+      <li id="rslides1_s4" class="" style="float: none; position: absolute; opacity: 0; z-index: 1; display: list-item; transition: opacity 800ms ease-in-out;"><img src="img/fotosslides/5.jpg" alt="5"></li>
+    </ul></div>
+</div>
+<!--fin  slides -->
+
+  <div class="presentacion" >
+  <div class="columnaizq">
+    <div class="izqint">
+    <iframe src="//widgets-code.websta.me/w/8f576920be5f?ck=MjAxNi0wNy0wNlQxNzoxNTowMi4wMDBa" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:auto;height:500px;width:315px;"></iframe> <!-- WEBSTA WIDGETS - widgets.websta.me --><!-- WEBSTA WIDGETS - widgets.websta.me -->
+      
+    </div>
+  </div>
+  <div class="columnaderecha">
+    <div class="dereint">
+      <div class="titulo">
+        <h2 class="tituloint">
+        Villa Karol es el salón de eventos que estás buscando!
+        </h2>
+        
+      </div>
+      Nuestro salón de eventos , te ofrece todo lo necesario para que tu matrimonio, fiesta de 15, primera comunión o evento empresarial sea todo un éxito:
+      <ul class="lista">
+        <li class="li">
+          <span class="iconos">
+            <i class="fusion-li-icon fa fa-star" style="color:dark;"></i>
+          </span>
+          <div class="licontenido">
+          Ubicado en el centro del Municipio de Malambo
+          </div>
+        </li>
+        <li class="li">
+          <span class="iconos">
+            <i class="fusion-li-icon fa fa-star" style="color:dark;"></i>
+          </span>
+          <div class="licontenido">
+          Comidas preparadas por un equipo profesional de excelente calidad
+          </div>
+        </li>
+        <li class="li">
+          <span class="iconos">
+            <i class="fusion-li-icon fa fa-star" style="color:dark;"></i>
+          </span>
+          <div class="licontenido">
+            ATENDEMOS DE LUNES A DOMINGOS DE 10:30 AM A 7:00 PM.
+          </div>
+        </li>
+      </ul>
+      <div class="servicios" >
+<h2 style="text-align: center;"><a href=""><img src="img/matrimonio.jpg" alt="" width="258" height="147"></a></h2>
+<h2 style="text-align: center;" class="tituloint"><a href="" class="serviciosa">Matrimonios</a></h2>
+<p style="text-align: center;">El lugar perfecto de Malambo para que la mejor noche de tu vida sea simplemente perfecta.<br>
+<a style="text-align: right;" href="" class="oculto">Más información</a></p>
+</div><div class="servicios">
+<h2 style="text-align: center;"><a href=""><img src="img/quince.jpg" alt="" width="258" height="147"></a></h2>
+<h2 style="text-align: center;" class="tituloint"><a href=""  class="serviciosa">Fiestas de 15 años</a></h2>
+<p style="text-align: center;">Prepárate a disfrutar de la Mejor Fiesta de Quince Años con nosotros.<br>
+<a href="" class="oculto">Más información</a></p>
+</div>
+<div class="servicios" >
+<h2 style="text-align: center;"><a href=""><img src="img/primeracomunion.jpg" alt="" width="258" height="147"></a></h2>
+<h2 style="text-align: center;" class="tituloint"><a href="" class="serviciosa">Primeras Comuniones</a></h2>
+<p style="text-align: center;">El momento más especial para comenzar un camino lleno de bendiciones.<br>
+<a href="" class="oculto">Más información</a></p>
+</div>
+
+    </div>
+  </div>
+  
+</div>
+  <footer>
+
+  <div class="footer"><div class=" mapa"><iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15673.452320200306!2d-74.7744901!3d10.8599647!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x94c69465c3429563!2sSalon+De+Eventos+Villa+Karol!5e0!3m2!1sen!2sco!4v1467680464597" class="mapag" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div><div class="foot1"><i class="fa fa-star" aria-hidden="true"></i>SALON DE EVENTOS VILLA KAROL</div>
+  
+     <div class="foot1" > <i class="fa fa-compass" aria-hidden="true"></i>Carrera  12 # 10-42 Malambo Atlántico</div>
+   
+   <div class="foot1"><i class="fa fa-phone-square" aria-hidden="true"></i> Teléfono: (5) 3760635 </div>
+   <div class="foot1"><i class="fa fa-mobile" aria-hidden="true"></i>Celulares: 3137093627-3145933628</div>
+<div class="foot1"><i class="fa fa-mobile" aria-hidden="true"></i>3007505222-3167736638</div>
+<div class="foot1"><i class="fa fa-globe" aria-hidden="true"></i>Malambo - Atlántico - Colombia</div>
+</div>
+  <div id="subfooter"><div>© 2016 por Salón de eventos VILLA KAROL / <i class="fa fa-desktop" aria-hidden="true"></i>Diseñador Web: Alfonso Diaz Rueda /<i class="fa fa-camera" aria-hidden="true"></i> Fotografía: Eylin Carolina Camargo Pontón</div></div>
+    
+    
+  </footer>
+  </div>
+   </div>
+
+</body>
+</html>
