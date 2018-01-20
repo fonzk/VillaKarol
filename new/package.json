@@ -1,0 +1,15 @@
+{
+  "name": "villakarol",
+  "version": "1.0.0",
+  "description": "pagina web salon de eventos villakarol",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fonzk",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.5",
+    "gulp-postcss": "^7.0.1"
+  }
+}
