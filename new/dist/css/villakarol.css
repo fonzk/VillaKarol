@@ -1,0 +1,51 @@
+
+           
+            /* font-family: 'Alegreya', serif; */
+            /* font-family: 'Asap', sans-serif; */
+:root{
+    --colorsecundario:#fee5c0;
+
+    --letramenu:#003f5f;
+}
+*{
+    margin:0;
+    padding: 0;
+    /* border:1px solid red; */
+}
+.hero-superior {
+background-color:var(--colorsecundario) ;
+height:80px;
+width: 100%;
+}
+.hero-superior-imagen {
+    height: 80px;
+    display: inline-block;
+}
+.hero-superior-nav{
+    
+padding-right:30px; 
+
+    height:80px;
+  float: right;
+  margin-top: 30px;
+ }
+.hero-superior-nav-ul{
+       text-decoration:none;
+     }
+.hero-superior-nav-ul-list{
+            display: inline-block;
+            list-style-type: none;
+         }
+.hero-superior-nav-ul-list-a{
+              font-family: 'Asap', sans-serif;
+              padding-left: 10px;
+              padding-top:30px;
+              text-decoration: none;
+              font-size: 30px;
+              color:var(--letramenu);
+              
+          }
+
+
+
+

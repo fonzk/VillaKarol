@@ -9,7 +9,10 @@
   "author": "fonzk",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^7.2.5",
     "browser-sync": "^2.23.5",
-    "gulp-postcss": "^7.0.1"
+    "gulp-postcss": "^7.0.1",
+    "postcss": "^6.0.16",
+    "postcss-nested": "^3.0.0"
   }
 }
